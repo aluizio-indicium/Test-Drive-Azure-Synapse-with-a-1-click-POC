@@ -5,11 +5,26 @@
 			"referenceName": "DataLakeStorageLinkedService",
 			"type": "LinkedServiceReference"
 		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "DataLake"
+		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": {
+					"value": "RAW/@{dataset().SchemaName}/@{dataset().TableName}",
+					"type": "Expression"
+				},
 				"fileSystem": "public"
 			},
 			"columnDelimiter": ",",
