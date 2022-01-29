@@ -33,7 +33,7 @@
 			},
 			"columnDelimiter": ",",
 			"rowDelimiter": "\n",
-			"escapeChar": "\\",
+			"escapeChar": "\"",
 			"quoteChar": "\""
 		},
 		"schema": []
