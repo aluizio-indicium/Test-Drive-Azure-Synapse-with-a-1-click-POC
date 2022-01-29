@@ -5,7 +5,7 @@
 		"workspaceName": {
 			"value": "indfnqqpyeo3hh7ypocws1"
 		},
-		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
+		"AdventureWorksLinkedService_connectionString": {
 			"value": ""
 		},
 		"DWSynapseAnalyticsLinkedService_connectionString": {
@@ -14,8 +14,11 @@
 		"DataLakeStorageLinkedService_accountKey": {
 			"value": ""
 		},
-		"AdventureWorksLinkedService_connectionString": {
+		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
 			"value": ""
+		},
+		"DataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://indfnqqpyeo3hh7ypoc.dfs.core.windows.net"
 		},
 		"HttpServerTripDataLinkedService_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/Azure/Test-Drive-Azure-Synapse-with-a-1-click-POC/main/tripDataAndFaresCSV/trip-data.csv"
@@ -28,9 +31,6 @@
 		},
 		"keyVaultLinkedservice_properties_typeProperties_baseUrl": {
 			"value": "@{concat('https://',linkedService().keyVaultName,'.vault.azure.net/')}"
-		},
-		"DataLakeStorageLinkedService_properties_typeProperties_url": {
-			"value": "https://indfnqqpyeo3hh7ypoc.dfs.core.windows.net"
 		}
 	}
 }
