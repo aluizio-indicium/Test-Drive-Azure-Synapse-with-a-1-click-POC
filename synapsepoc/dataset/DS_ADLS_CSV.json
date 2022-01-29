@@ -1,0 +1,21 @@
+{
+	"name": "DS_ADLS_CSV",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DataLakeStorageLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "public"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"quoteChar": "\""
+		},
+		"schema": []
+	}
+}
