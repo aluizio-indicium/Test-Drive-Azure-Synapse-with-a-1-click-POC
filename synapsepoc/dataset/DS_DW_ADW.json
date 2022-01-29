@@ -1,0 +1,23 @@
+{
+	"name": "DS_DW_ADW",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DWSynapseAnalyticsLinkedService",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"SchemaName": {
+				"type": "string"
+			},
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"folder": {
+			"name": "DW"
+		},
+		"annotations": [],
+		"type": "AzureSqlDWTable",
+		"schema": []
+	}
+}
