@@ -8,6 +8,15 @@
 		"TripFaresSynapseAnalyticsLinkedService_connectionString": {
 			"value": ""
 		},
+		"DWSynapseAnalyticsLinkedService_connectionString": {
+			"value": ""
+		},
+		"DataLakeStorageLinkedService_accountKey": {
+			"value": ""
+		},
+		"AdventureWorksLinkedService_connectionString": {
+			"value": ""
+		},
 		"HttpServerTripDataLinkedService_properties_typeProperties_url": {
 			"value": "https://raw.githubusercontent.com/Azure/Test-Drive-Azure-Synapse-with-a-1-click-POC/main/tripDataAndFaresCSV/trip-data.csv"
 		},
@@ -19,6 +28,9 @@
 		},
 		"keyVaultLinkedservice_properties_typeProperties_baseUrl": {
 			"value": "@{concat('https://',linkedService().keyVaultName,'.vault.azure.net/')}"
+		},
+		"DataLakeStorageLinkedService_properties_typeProperties_url": {
+			"value": "https://indfnqqpyeo3hh7ypoc.dfs.core.windows.net"
 		}
 	}
 }
