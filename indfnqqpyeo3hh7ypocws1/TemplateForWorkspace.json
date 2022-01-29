@@ -936,10 +936,6 @@
 				"typeProperties": {
 					"location": {
 						"type": "AzureBlobFSLocation",
-						"fileName": {
-							"value": "@{dataset().SchemaName}.@{dataset().TableName}.txt",
-							"type": "Expression"
-						},
 						"folderPath": {
 							"value": "RAW/@{dataset().SchemaName}/@{dataset().TableName}",
 							"type": "Expression"
