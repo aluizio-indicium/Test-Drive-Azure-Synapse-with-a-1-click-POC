@@ -28,6 +28,7 @@
 				"fileSystem": "public"
 			},
 			"columnDelimiter": ",",
+			"rowDelimiter": "\n",
 			"escapeChar": "\\",
 			"quoteChar": "\""
 		},
