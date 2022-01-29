@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_4oy",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "CopyPipeline_4oy",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2022-01-29T21:49:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
