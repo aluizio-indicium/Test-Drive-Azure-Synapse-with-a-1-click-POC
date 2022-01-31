@@ -20,10 +20,6 @@
 							"dependsOn": [],
 							"userProperties": [],
 							"typeProperties": {
-								"pipeline": {
-									"referenceName": "EL_ADW_FULL",
-									"type": "PipelineReference"
-								},
 								"waitOnCompletion": true
 							}
 						}
