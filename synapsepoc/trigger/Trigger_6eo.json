@@ -1,0 +1,24 @@
+{
+	"name": "Trigger_6eo",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "EL_ADW_2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2022-01-31T00:00:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}
