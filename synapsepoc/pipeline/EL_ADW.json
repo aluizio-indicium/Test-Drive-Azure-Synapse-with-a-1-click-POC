@@ -576,7 +576,7 @@
 										},
 										"sink": {
 											"name": "Weight",
-											"type": "Decimal"
+											"type": "String"
 										}
 									},
 									{
